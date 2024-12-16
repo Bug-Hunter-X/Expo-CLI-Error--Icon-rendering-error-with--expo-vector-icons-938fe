@@ -1,0 +1,1 @@
+This error typically occurs when using Expo's `@expo/vector-icons` package and you attempt to render an icon that isn't included in the selected icon family.  For example, if you specify an icon name that exists in `FontAwesome`, but your app is configured to use `MaterialCommunityIcons`, the icon won't render and you'll encounter this cryptic error message.
